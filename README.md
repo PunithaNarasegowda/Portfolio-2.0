@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js + Redux Starter
 
-## Getting Started
+This is a simple starter project built with **Next.js**, **Redux Toolkit**, and **Tailwind CSS**. It includes a basic counter example with state managed by Redux, and responsive styling using Tailwind.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* ⚛️ Next.js 14+ for server-side rendered React apps
+* 🧰 Redux Toolkit for scalable state management
+* 💨 Tailwind CSS for utility-first responsive UI
+* 🔁 Simple counter with increment, decrement, and reset actions
+* 🌙 Clean layout, modern design, and extendable structure
+
+## 🛠️ Tech Stack
+
+* Next.js
+* React
+* Redux Toolkit
+* Tailwind CSS
+
+## Project Structure
+
+```
+📁 my-redux-app/
+├── 📁 src/
+│   ├── 📁 app/
+│   │   ├── page.tsx
+│   │   ├── layout.tsx
+│   │   └── globals.css
+│   └── 📁 store/
+│       ├── counterSlice.ts
+│       └── index.ts
+├── package.json
+├── README.md
+└── next.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Clone the repo
+```bash
+git clone https://github.com/PunithaNarasegowda/Portfolio-2.0.git
+cd my-redux-app
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-## Learn More
+### 3. Start the development server
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Visit http://localhost:3000 in your browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project uses:
+- Next.js for the framework
+- Redux Toolkit for state management
+- Tailwind CSS for styling
+- TypeScript for type safety
 
-## Deploy on Vercel
+## 🪪 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-sourced under the MIT License.
