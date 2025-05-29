@@ -1,4 +1,4 @@
-# 🚀 Next.js + Redux Starter
+# 🚀 Portfolio 2.0
 
 This is a simple starter project built with **Next.js**, **Redux Toolkit**, and **Tailwind CSS**. It includes a basic counter example with state managed by Redux, and responsive styling using Tailwind.
 
